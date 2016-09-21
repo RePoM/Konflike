@@ -6,9 +6,10 @@ public class Konflikt01 {
 		return x*2;
 	}
 	
-	public int umfang(int r) {
+	public int umfang(int d) {
 		
-		return durchmesser(r)*3;
+		return d*3;
 	}
+	
 	
 }
