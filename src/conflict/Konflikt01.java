@@ -2,13 +2,13 @@ package conflict;
 
 public class Konflikt01 {
 	
-	public double durchmesser(double x) {
+	public int durchmesser(int x) {
 		return x*2;
 	}
 	
-	public double umfang(double r) {
+	public int umfang(int r) {
 		
-		return r*3.14;
+		return durchmesser(r)*3;
 	}
 	
 }
