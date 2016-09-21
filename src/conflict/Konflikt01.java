@@ -6,9 +6,10 @@ public class Konflikt01 {
 		return x*2;
 	}
 	
-	public double umfang(double d) {
+	public void umfang(double d) {
 		
-		return d*3.14;
+		System.out.println(d*3.14);
+		
 	}
 	
 	
