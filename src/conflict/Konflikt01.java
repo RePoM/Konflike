@@ -6,10 +6,12 @@ public class Konflikt01 {
 		
 		private String firstName;
 		private String lastName;
+		private int age;
 		
-		public Person(String fN, String lN) {
+		public Person(String fN, String lN, int age) {
 			this.firstName = fN;
 			this.lastName = lN;
+			this.age = age;
 		}
 
 
