@@ -6,9 +6,9 @@ public class Konflikt01 {
 		return x*2;
 	}
 	
-	public int umfang(int d) {
+	public double umfang(double d) {
 		
-		return d*3;
+		return d*3.14;
 	}
 	
 	
