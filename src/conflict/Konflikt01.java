@@ -8,7 +8,11 @@ public class Konflikt01 {
 	
 	public int umfang(int d) {
 		
-		return d*3;
+		if(durchmesser(3)>0){
+			return d*3;
+		}
+		
+		return 0;
 	}
 	
 	
