@@ -9,18 +9,24 @@ public class Konflikt01 {
 		private int age;
 		
 		public Person(String fN, String lN, int age) {
-			this.firstName = fN;
-			this.lastName = lN;
+			this.setFirstName(fN);
+			this.setLastName(lN);
 			this.age = age;
 		}
 
 
-		public void setFirstName(String firstName) {
+		public void setFirstName(String firstName) throws IllegalArgumentException {
+			
+			if(firstName.isEmpty()) throw new IllegalArgumentException("cant");
+
 			this.firstName = firstName;
 		}
 
 
-		public void setLastName(String lastName) {
+		public void setLastName(String lastName) throws IllegalArgumentException{
+
+			if(lastName.isEmpty()) throw new IllegalArgumentException("cant");
+
 			this.lastName = lastName;
 		}
 		
