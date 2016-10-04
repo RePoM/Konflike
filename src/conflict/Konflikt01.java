@@ -13,13 +13,17 @@ public class Konflikt01 {
 		}
 
 
-		public void setFirstName(String firstName){
+		public void setFirstName(String firstName) throws IllegalArgumentException {
+			
+			if(firstName.isEmpty()) throw new IllegalArgumentException("cant");
 
 			this.firstName = firstName;
 		}
 
 
-		public void setLastName(String lastName){
+		public void setLastName(String lastName)throws IllegalArgumentException{
+
+			if(lastName.isEmpty()) throw new IllegalArgumentException("cant");
 
 			this.lastName = lastName;
 		}
