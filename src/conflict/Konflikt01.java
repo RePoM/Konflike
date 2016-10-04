@@ -8,8 +8,8 @@ public class Konflikt01 {
 		private String lastName;
 		
 		public Person(String fN, String lN) {
-			this.firstName = fN;
-			this.lastName = lN;
+			this.setFirstName(fN);
+			this.setLastName(lN);
 		}
 
 
